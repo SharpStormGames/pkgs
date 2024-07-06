@@ -16,7 +16,7 @@
     with import nixpkgs { system = "x86_64-linux"; };
     stdenv.mkDerivation {
      name = "grub-theme";
-     src = ./ff-theme;
+     src = ./grub-theme;
      installPhase = "mkdir -p $out; cp -r $src/* $out";
     };
   };
