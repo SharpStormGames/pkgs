@@ -11,5 +11,13 @@
      src = ./ff-theme;
      installPhase = "mkdir -p $out; cp -r $src/* $out";
     };
+    # GNU GRUB Theme
+    packages.x86_64-linux.grub-theme = 
+    with import nixpkgs { system = "x86_64-linux"; };
+    stdenv.mkDerivation {
+     name = "grub-theme";
+     src = ./ff-theme;
+     installPhase = "mkdir -p $out; cp -r $src/* $out";
+    };
   };
 }
