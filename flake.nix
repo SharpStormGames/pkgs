@@ -51,6 +51,7 @@
       pkgs.xorg.libXext 
       pkgs.xorg.libXrender 
       pkgs.xorg.libXtst
+      pkgs.xorg.libXi
       pkgs.libgcc 
       pkgs.libz 
       pkgs.stdenv.cc.cc.lib 
