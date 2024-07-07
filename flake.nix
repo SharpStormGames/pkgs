@@ -49,6 +49,7 @@
       pkgs.alsa-lib
       pkgs.libGL 
       pkgs.xorg.libX11 
+      pkgs.xorg.libXcursor
       pkgs.xorg.libXext 
       pkgs.xorg.libXrender 
       pkgs.xorg.libXtst
