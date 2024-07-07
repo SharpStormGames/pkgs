@@ -44,7 +44,7 @@
    # Alpine Client Launcher
     alpine-client = pkgs.buildFHSEnv {
      name = "alpine-client";
-     targetPkgs = pkgs: [ pinnacle pkgs.libGL pkgs.xorg.libX11 pkgs.libgcc pkgs.libz pkgs.stdenv.cc.cc.lib ];
+     targetPkgs = pkgs: [ pinnacle pkgs.libGL pkgs.xorg.libX11 pkgs.xorg.libXext pkgs.libgcc pkgs.libz pkgs.stdenv.cc.cc.lib ];
      runScript = "pinnacle";
     };
   };
