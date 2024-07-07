@@ -54,7 +54,8 @@
       pkgs.xorg.libXi
       pkgs.libgcc 
       pkgs.libz 
-      pkgs.stdenv.cc.cc.lib 
+      pkgs.stdenv.cc.cc.lib
+      pkgs.fontconfig
      ];
      runScript = "pinnacle";
     };
