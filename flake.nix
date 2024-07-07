@@ -45,7 +45,8 @@
     alpine-client = pkgs.buildFHSEnv {
      name = "alpine-client";
      targetPkgs = pkgs: [ 
-      pinnacle 
+      pinnacle
+      pkgs.alsa-lib
       pkgs.libGL 
       pkgs.xorg.libX11 
       pkgs.xorg.libXext 
