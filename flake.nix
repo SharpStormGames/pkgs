@@ -63,6 +63,14 @@
      ];
      runScript = "pinnacle";
     };
+   # where-is-my-sddm-theme override
+    sddm-theme = pkgs.where-is-my-sddm-theme.override {
+     variants = ["qt5"];
+     themeConfig.General = { 
+      passwordFontSize = 24; 
+      passwordCursorColor = "white"; 
+     };
+    };
   };
  };
 }
