@@ -18,12 +18,12 @@
      pinnacle =
      pkgs.stdenv.mkDerivation {
       pname = "pinnacle";
-      version = "1.6.0";
+      version = "1.7.0";
       dontUnpack = true;
       dontBuild = true;
       dontConfigure = true;
       src = pkgs.fetchurl {
-       url = "https://github.com/alpine-client/pinnacle/releases/download/1.6.0/pinnacle-linux-amd64";
+       url = "https://github.com/alpine-client/pinnacle/releases/download/1.7.0/pinnacle-linux-amd64";
        sha256 = "sha256-D7yWOHz792jeS8GglY1DsVwKOHGbNHT9jWujofFSEok=";
       };
       installPhase = ''
