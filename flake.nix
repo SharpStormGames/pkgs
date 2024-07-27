@@ -24,7 +24,7 @@
       dontConfigure = true;
       src = pkgs.fetchurl {
        url = "https://github.com/alpine-client/pinnacle/releases/download/1.7.0/pinnacle-linux-amd64";
-       sha256 = "sha256-D7yWOHz792jeS8GglY1DsVwKOHGbNHT9jWujofFSEok=";
+       sha256 = "sha256-YjqFgGIQuFQFRJrFn/uQ40Bbjw3zW30W213OlcU40DQ=";
       };
       installPhase = ''
        mkdir -p $out/bin
