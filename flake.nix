@@ -3,6 +3,7 @@
  inputs = { nixpkgs = { url = "github:nixos/nixpkgs?ref=nixos-unstable"; }; };
  outputs = { self, nixpkgs }: let pkgs = import nixpkgs { system = "x86_64-linux"; }; in {    
   packages.x86_64-linux = {
+   element-desktop-nightly = import ./element-nightly/package.nix { inherit pkgs; };
    ff-theme = pkgs.stdenv.mkDerivation {
     name = "ff-theme";
     src = ./ff-theme;

@@ -1,0 +1,26 @@
+name: "Update Element Nightly"
+on:
+  schedule:
+    - cron: '19 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-element-nightly:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install Nix
+      uses: cachix/install-nix-action@v21
+      with:
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+    - name: Grab Date & sha256
+      run: bash ./element-nightly/update.sh
+    - name: Test Build
+      run: nix build .#element-desktop-nightly
+    - name: Push
+      if: ${{ success() }}
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update Element Nightly"
