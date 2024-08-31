@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DATE=`date -u --date="yesterday" "+%Y%m%d"`'01'
+DATE=`TZ='Australia/Sydney' date --date="yesterday" "+%Y%m%d"`'01'
 
 echo -n $DATE > ./element-nightly/date
 
