@@ -1,4 +1,4 @@
-{ pkgs, ... }: let version = "1.8.2"; in
+{ pkgs, ... }: let version = "1.8.3"; in
 pkgs.stdenv.mkDerivation {
   pname = "pinnacle";
   version = "${version}";
@@ -7,7 +7,7 @@ pkgs.stdenv.mkDerivation {
   dontConfigure = true;
   src = pkgs.fetchurl {
     url = "https://github.com/alpine-client/pinnacle/releases/download/${version}/pinnacle-linux-amd64";
-    sha256 = "sha256-0t67tjlov0Y3jFrUfFBHnwZXMh+XZwAo65aG+1TDbOo=";
+    sha256 = "sha256-aqJAMBcnctV4yVc8HwgAJrtW7gNGtxIvjsdtE8ObnK4=";
   };
   installPhase = ''
     mkdir -p $out/bin
