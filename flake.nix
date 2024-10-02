@@ -6,11 +6,6 @@
       alpine-icon = import ./alpine-client/icon.nix { inherit self pkgs; };
       element-desktop-nightly = import ./element-nightly/package.nix { inherit self pkgs; };
       # TODO: Move to themes repo
-      ff-theme = pkgs.stdenv.mkDerivation {
-        name = "ff-theme";
-        src = ./ff-theme;
-        installPhase = "mkdir -p $out; cp -r $src/* $out";
-      };
       grub-theme = pkgs.stdenv.mkDerivation {
         name = "grub-theme";
         src = ./grub-theme;
