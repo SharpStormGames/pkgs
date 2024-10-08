@@ -11,14 +11,6 @@
         src = ./grub-theme;
         installPhase = "mkdir -p $out; cp -r $src/* $out";
       };
-
-      sddm-theme = pkgs.where-is-my-sddm-theme.override {
-        variants = ["qt5"];
-        themeConfig.General = { 
-          passwordFontSize = 24; 
-          passwordCursorColor = "white"; 
-        };
-      };
     };
   };
 }
