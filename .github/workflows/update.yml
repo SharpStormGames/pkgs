@@ -15,8 +15,10 @@ jobs:
       with:
         extra_nix_config: |
           experimental-features = nix-command flakes
-    - name: Grab Date & sha256
-      run: bash ./element-nightly/update.sh
+    - name: Install Nu
+      uses: hustcer/setup-nu@v3
+    - name: Check version, grab date & sha256
+      run: nu ./element-nightly/update.nu
     - name: Test Build
       run: nix build .#element-desktop-nightly
     - name: Push
