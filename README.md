@@ -2,10 +2,10 @@
 
 Flake to create packages for my dotfiles 
 
-Firefox Theme - [FF-ULTIMA](https://github.com/soulhotel/FF-ULITMA)
+Alpine Client - [Lightweight Client for Minecraft](https://alpineclient.com/)
+
+Element Nightly [Nightly Version of Element Desktop](https://element.io/)
 
 Grub Theme - ZorinOS Grub Theme
 
-SDDM Theme - [where-is-my-sddm-theme](https://github.com/stepanzubkov/where-is-my-sddm-theme)
 
-Alpine Client - [Lightweight Client for Minecraft](https://alpineclient.com/)
