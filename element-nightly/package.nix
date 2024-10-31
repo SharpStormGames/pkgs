@@ -3,7 +3,7 @@ let
   version = "${builtins.readFile ./date}";
   sha = "${builtins.readFile ./sha256}";
   rpath = pkgs.lib.makeLibraryPath [
-    pkgs.alsaLib
+    pkgs.alsa-lib
     pkgs.atk
     pkgs.at-spi2-atk
     pkgs.at-spi2-core
