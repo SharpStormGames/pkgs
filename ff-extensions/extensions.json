@@ -1,38 +1,15 @@
 [
-  {
-    "slug": "adguard-adblocker"
-  },
-  {
-    "slug": "better-canvas"
-  },
-  {
-    "slug": "betterttv"
-  },
-  {
-    "slug": "darkreader"
-  },
-  {
-    "slug": "decentraleyes"
-  },
-  {
-    "slug": "gumbo-twitch-companion"
-  },
-  {
-    "slug": "hide-google-ai-overviews"
-  },
-  {
-    "slug": "nighttab"
-  },
-  {
-    "slug": "privacy-badger17"
-  },
-  {
-    "slug": "proton-pass"
-  },
-  {
-    "slug": "untrap-for-youtube"
-  },
-  {
-    "slug": "youtube-addon"
-  }
+  { "slug": "adguard-adblocker" },
+  { "slug": "better-canvas" },
+  { "slug": "betterttv" },
+  { "slug": "darkreader" },
+  { "slug": "decentraleyes" },
+  { "slug": "gumbo-twitch-companion" },
+  { "slug": "hide-google-ai-overviews" },
+  { "slug": "nighttab" },
+  { "slug": "privacy-badger17" },
+  { "slug": "proton-pass" },
+  { "slug": "tabliss" },
+  { "slug": "untrap-for-youtube" },
+  { "slug": "youtube-addon" }
 ]
