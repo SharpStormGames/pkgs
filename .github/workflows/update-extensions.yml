@@ -1,0 +1,30 @@
+name: "Update Firefox Extensions"
+on:
+  schedule:
+    - cron: "19 18 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ff-extensions/extensions.json
+  workflow_dispatch:
+
+jobs:
+  update-firefox-extensions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Nix
+        uses: cachix/install-nix-action@v21
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Update Extensions
+        run: nix develop --command mozilla-addons-to-nix ./ff-extensions/extensions.json ./ff-extensions/extensions.nix
+      - name: Pull
+        run: git pull
+      - name: Push
+        if: ${{ success() }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Firefox Extensions"
