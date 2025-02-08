@@ -783,6 +783,21 @@
         platforms = platforms.all;
       };
     };
+    "tabliss" = buildFirefoxXpiAddon {
+      pname = "tabliss";
+      version = "2.6.0";
+      addonId = "extension@tabliss.io";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3940751/tabliss-2.6.0.xpi";
+      sha256 = "de766810f234b1c13ffdb7047ae6cbf06ed79c3d08b51a07e4766fadff089c0f";
+      meta = with lib;
+      {
+        homepage = "https://tabliss.io";
+        description = "A beautiful New Tab page with many customisable backgrounds and widgets that does not require any permissions.";
+        license = licenses.gpl3;
+        mozPermissions = [ "storage" ];
+        platforms = platforms.all;
+      };
+    };
     "untrap-for-youtube" = buildFirefoxXpiAddon {
       pname = "untrap-for-youtube";
       version = "8.3.1";
