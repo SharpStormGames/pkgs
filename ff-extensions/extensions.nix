@@ -105,10 +105,10 @@
     };
     "gumbo-twitch-companion" = buildFirefoxXpiAddon {
       pname = "gumbo-twitch-companion";
-      version = "1.18.8";
+      version = "1.18.9";
       addonId = "{59a39734-1e66-452e-a7b8-cc79f72062f0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4353124/gumbo_twitch_companion-1.18.8.xpi";
-      sha256 = "ec1b36c27c32c29d1b55910afa4b34499dbf094ea6d7adf733511d15cdc15add";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4434636/gumbo_twitch_companion-1.18.9.xpi";
+      sha256 = "c0aae637bf4423150a6a5381a64470adfa123ace2634b1423c91eff7f9b385ad";
       meta = with lib;
       {
         homepage = "https://github.com/seldszar/gumbo";
