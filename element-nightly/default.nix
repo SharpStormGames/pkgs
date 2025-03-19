@@ -17,6 +17,7 @@ let
     pkgs.glib
     pkgs.glibc
     pkgs.libdrm
+    pkgs.libgbm
     pkgs.libsecret
     pkgs.libuuid
     pkgs.mesa
