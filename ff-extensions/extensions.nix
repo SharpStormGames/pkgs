@@ -105,22 +105,16 @@
     };
     "gumbo-twitch-companion" = buildFirefoxXpiAddon {
       pname = "gumbo-twitch-companion";
-      version = "1.18.9";
+      version = "1.18.10";
       addonId = "{59a39734-1e66-452e-a7b8-cc79f72062f0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4434636/gumbo_twitch_companion-1.18.9.xpi";
-      sha256 = "c0aae637bf4423150a6a5381a64470adfa123ace2634b1423c91eff7f9b385ad";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4465226/gumbo_twitch_companion-1.18.10.xpi";
+      sha256 = "26f847b859f0af1f4e3cfd3f4adae2f8edfb674488b0fcfbd37deda9eb0b12d9";
       meta = with lib;
       {
         homepage = "https://github.com/seldszar/gumbo";
         description = "Swollen companion keeping you updated on your Twitch experience";
         license = licenses.mit;
-        mozPermissions = [
-          "alarms"
-          "notifications"
-          "storage"
-          "unlimitedStorage"
-          "https://gumbo.seldszar.fr/*"
-        ];
+        mozPermissions = [ "alarms" "background" "notifications" "storage" ];
         platforms = platforms.all;
       };
     };
