@@ -339,10 +339,10 @@
     };
     "privacy-badger17" = buildFirefoxXpiAddon {
       pname = "privacy-badger17";
-      version = "2025.3.3";
+      version = "2025.3.27";
       addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4447530/privacy_badger17-2025.3.3.xpi";
-      sha256 = "7acf878b3cd4a3b5ca7c98cbe3e31630bc6a048156db03bf2021795cce68ba97";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4463652/privacy_badger17-2025.3.27.xpi";
+      sha256 = "45976baab7476792dcad07f4386be618fd49b27eeb000c5e6b4b6f3611bf865e";
       meta = with lib;
       {
         homepage = "https://privacybadger.org/";
@@ -351,12 +351,12 @@
         mozPermissions = [
           "<all_urls>"
           "alarms"
+          "privacy"
+          "storage"
           "tabs"
           "webNavigation"
           "webRequest"
           "webRequestBlocking"
-          "storage"
-          "privacy"
           "https://*.facebook.com/*"
           "http://*.facebook.com/*"
           "https://*.messenger.com/*"
