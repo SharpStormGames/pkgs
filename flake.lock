@@ -2,15 +2,16 @@
   "nodes": {
     "firefox": {
       "inputs": {
+        "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       },
       "locked": {
         "dir": "repos/rycee/pkgs/firefox-addons/",
-        "lastModified": 1744783165,
-        "narHash": "sha256-kwhFjlTZh93Bubq/A9kQ9SVNt7iQISyFNRrItlJ1J6E=",
+        "lastModified": 1739222393,
+        "narHash": "sha256-Ko2hum1OvG3weySU1Ycr3cYbkbNz2Knza+oAYOn27IQ=",
         "owner": "nix-community",
         "repo": "nur-combined",
-        "rev": "981c2dfaf7d8ab25be9af41241ede8e336168760",
+        "rev": "d39269506683f7964f964cbcb26af765095f8629",
         "type": "github"
       },
       "original": {
@@ -41,6 +42,21 @@
         "type": "github"
       }
     },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1629284811,
+        "narHash": "sha256-JHgasjPR0/J1J3DRm4KxM4zTyAj4IOJY8vIl75v/kPI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c5d161cc0af116a2e17f54316f0bf43f0819785c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "hyprland-preview-share-picker": {
       "flake": false,
       "locked": {
@@ -59,16 +75,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1627814220,
-        "narHash": "sha256-P+MDgdZw2CBk9X1ZZaUgHgN+32pTfLFf3XVIBOXirI4=",
-        "owner": "nixos",
+        "lastModified": 1731755305,
+        "narHash": "sha256-v5P3dk5JdiT+4x69ZaB18B8+Rcu3TIOrcdG4uEX7WZ8=",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ab5b6828af26215bf2646c31961da5d3749591ef",
+        "rev": "057f63b6dc1a2c67301286152eb5af20747a9cb4",
         "type": "github"
       },
       "original": {
-        "owner": "nixos",
-        "ref": "nixpkgs-unstable",
+        "owner": "NixOS",
+        "ref": "nixos-24.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -91,11 +107,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1744463964,
-        "narHash": "sha256-LWqduOgLHCFxiTNYi3Uj5Lgz0SR+Xhw3kr/3Xd0GPTM=",
+        "lastModified": 1740126099,
+        "narHash": "sha256-ozoOtE2hGsqh4XkTJFsrTkNxkRgShxpQxDynaPZUGxk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+        "rev": "32fb99ba93fea2798be0e997ea331dd78167f814",
         "type": "github"
       },
       "original": {
@@ -112,11 +128,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1744782863,
-        "narHash": "sha256-NBvSCE2MXjK7yCLEMsZ+lrImbuoukLGsJYrWCxemGNM=",
+        "lastModified": 1740387072,
+        "narHash": "sha256-359AJuQenQZBlSHObwzNV0e3xsjNCC0M9grbW8nmp3Q=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "e561993c7848eaa7288e16219c62c8d5bbbe81d8",
+        "rev": "86af25ede4eca9022e087f0970f20a7b07a6dca1",
         "type": "github"
       },
       "original": {
