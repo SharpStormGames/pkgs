@@ -46,10 +46,10 @@
     };
     "betterttv" = buildFirefoxXpiAddon {
       pname = "betterttv";
-      version = "7.6.11";
+      version = "7.6.13";
       addonId = "firefox@betterttv.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4427350/betterttv-7.6.11.xpi";
-      sha256 = "63db1d185c3e02afa7f9897dbab4000de66d3f511fa2b4ec9b26e132a8e649b7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4469511/betterttv-7.6.13.xpi";
+      sha256 = "a18bc1e328eccc24ca034f3d2b9e717aaa7f25383d2e45484f8d54b0d368c99a";
       meta = with lib;
       {
         homepage = "https://betterttv.com";
@@ -105,22 +105,16 @@
     };
     "gumbo-twitch-companion" = buildFirefoxXpiAddon {
       pname = "gumbo-twitch-companion";
-      version = "1.18.9";
+      version = "1.18.10";
       addonId = "{59a39734-1e66-452e-a7b8-cc79f72062f0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4434636/gumbo_twitch_companion-1.18.9.xpi";
-      sha256 = "c0aae637bf4423150a6a5381a64470adfa123ace2634b1423c91eff7f9b385ad";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4465226/gumbo_twitch_companion-1.18.10.xpi";
+      sha256 = "26f847b859f0af1f4e3cfd3f4adae2f8edfb674488b0fcfbd37deda9eb0b12d9";
       meta = with lib;
       {
         homepage = "https://github.com/seldszar/gumbo";
         description = "Swollen companion keeping you updated on your Twitch experience";
         license = licenses.mit;
-        mozPermissions = [
-          "alarms"
-          "notifications"
-          "storage"
-          "unlimitedStorage"
-          "https://gumbo.seldszar.fr/*"
-        ];
+        mozPermissions = [ "alarms" "background" "notifications" "storage" ];
         platforms = platforms.all;
       };
     };
@@ -345,10 +339,10 @@
     };
     "privacy-badger17" = buildFirefoxXpiAddon {
       pname = "privacy-badger17";
-      version = "2025.3.3";
+      version = "2025.3.27";
       addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4447530/privacy_badger17-2025.3.3.xpi";
-      sha256 = "7acf878b3cd4a3b5ca7c98cbe3e31630bc6a048156db03bf2021795cce68ba97";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4463652/privacy_badger17-2025.3.27.xpi";
+      sha256 = "45976baab7476792dcad07f4386be618fd49b27eeb000c5e6b4b6f3611bf865e";
       meta = with lib;
       {
         homepage = "https://privacybadger.org/";
@@ -357,12 +351,12 @@
         mozPermissions = [
           "<all_urls>"
           "alarms"
+          "privacy"
+          "storage"
           "tabs"
           "webNavigation"
           "webRequest"
           "webRequestBlocking"
-          "storage"
-          "privacy"
           "https://*.facebook.com/*"
           "http://*.facebook.com/*"
           "https://*.messenger.com/*"
