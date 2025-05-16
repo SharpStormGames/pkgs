@@ -836,7 +836,7 @@
       meta = with lib;
       {
         homepage = "https://github.com/code4charity/YouTube-Extension/";
-        description = "Youtube Extension. Powerful but lightweight. Enrich your Youtube &amp; content selection.\nMake YouTube tidy&amp;smart! Layout Filters Shortcuts Adblocker Playlist";
+        description = "Youtube Extension. Powerful but lightweight. Enrich your Youtube and content selection. Make YouTube tidy and smart! (Layout, Filters, Shortcuts, Playlist)";
         mozPermissions = [
           "contextMenus"
           "storage"
