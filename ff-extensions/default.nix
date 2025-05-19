@@ -767,10 +767,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.31.1";
+      version = "1.31.2";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4474339/proton_pass-1.31.1.xpi";
-      sha256 = "1a5b44f5a3a3599af33ebc5307027682a951670ca7f797cc49cfd2a105db92ae";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4491195/proton_pass-1.31.2.xpi";
+      sha256 = "1be8b5bdc3ad9d5b54b67c88e46d2e3437d913977a8e0100c10d695ac600bb93";
       meta = with lib;
       {
         homepage = "https://proton.me";
