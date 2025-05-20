@@ -16,6 +16,7 @@
 
   outputs = { self, nixpkgs, ... }@inputs: let
     pkgs = import nixpkgs { system = "x86_64-linux"; overlays = [ inputs.nurpkgs.overlays.default ]; };
+    apkgs = import nixpkgs { system = "aarch64-linux"; };
     buildFirefoxXpiAddon = inputs.firefox.lib.x86_64-linux.buildFirefoxXpiAddon;
     fetchurl = pkgs.fetchurl; stdenv = pkgs.stdenv; lib = inputs.nixpkgs.lib;
   in {
@@ -26,7 +27,7 @@
       krisp-patcher = import ./krisp-patcher { inherit self pkgs; };
       profile-connector = import ./profile-connector { inherit self pkgs; };
     };
-    packages.aarch64-linux.rpi-lgpio = import ./rpi-lgpio { inherit self lib pkgs; };
+    packages.aarch64-linux.rpi-lgpio = import ./rpi-lgpio { inherit self lib apkgs; };
     devShells.x86_64-linux.default = pkgs.mkShell { packages = [ pkgs.nur.repos.rycee.mozilla-addons-to-nix ]; };
   };
 }

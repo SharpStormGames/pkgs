@@ -1,10 +1,10 @@
-{ pkgs, ... }:
+{ apkgs, ... }:
 
-pkgs.python3Packages.buildPythonPackage rec {
+apkgs.python3Packages.buildPythonPackage rec {
   pname = "lgpio";
   version = "0.2.2";
 
-  src = pkgs.fetchFromGitHub {
+  src = apkgs.fetchFromGitHub {
     owner = "joan2937";
     repo = "lg";
     rev = "v${version}";
@@ -13,9 +13,9 @@ pkgs.python3Packages.buildPythonPackage rec {
 
   preConfigure = "cd PY_LGPIO";
   preBuild = "swig -python lgpio.i";
-  nativeBuildInputs = [ pkgs.swig ];
+  nativeBuildInputs = [ apkgs.swig ];
   buildInputs = [
-    (pkgs.stdenv.mkDerivation {
+    (apkgs.stdenv.mkDerivation {
       inherit pname version src;
       postConfigure = ''
         substituteInPlace Makefile \
