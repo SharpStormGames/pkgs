@@ -1,4 +1,4 @@
-name: "Update Firefox Extensions"
+name: "Update Element Nightly"
 on:
   schedule:
     - cron: "19 18 * * *"
