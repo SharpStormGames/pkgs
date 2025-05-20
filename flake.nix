@@ -24,9 +24,9 @@
       ff-extensions = import ./ff-extensions { inherit buildFirefoxXpiAddon lib fetchurl stdenv; };
       hypr-share-picker = import ./hypr-share-picker { inherit self inputs pkgs; };
       krisp-patcher = import ./krisp-patcher { inherit self pkgs; };
-      lgpio = import ./lgpio { inherit self lib pkgs; };
       profile-connector = import ./profile-connector { inherit self pkgs; };
     };
+    packages.aarch64-linux.lgpio = import ./lgpio { inherit self lib pkgs; };
     devShells.x86_64-linux.default = pkgs.mkShell { packages = [ pkgs.nur.repos.rycee.mozilla-addons-to-nix ]; };
   };
 }
