@@ -339,10 +339,10 @@
     };
     "privacy-badger17" = buildFirefoxXpiAddon {
       pname = "privacy-badger17";
-      version = "2025.3.27";
+      version = "2025.5.14";
       addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4463652/privacy_badger17-2025.3.27.xpi";
-      sha256 = "45976baab7476792dcad07f4386be618fd49b27eeb000c5e6b4b6f3611bf865e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4493398/privacy_badger17-2025.5.14.xpi";
+      sha256 = "c3b6c0bf249b6b2661dc29f414d3abe1c0d637b4e059a49f42a01cc73f319aea";
       meta = with lib;
       {
         homepage = "https://privacybadger.org/";
@@ -829,10 +829,10 @@
     };
     "youtube-addon" = buildFirefoxXpiAddon {
       pname = "youtube-addon";
-      version = "4.1188";
+      version = "4.1250";
       addonId = "{3c6bf0cc-3ae2-42fb-9993-0d33104fdcaf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4411470/youtube_addon-4.1188.xpi";
-      sha256 = "51ba97226fce20508231b269b79e18bc2a90db73b2563f9f6434a64a7766f79b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4492115/youtube_addon-4.1250.xpi";
+      sha256 = "9d92e2b35a774a6d313583850d162abcfa1bf90d8d75d080c93872c6ce4a4813";
       meta = with lib;
       {
         homepage = "https://github.com/code4charity/YouTube-Extension/";
