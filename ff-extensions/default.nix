@@ -46,10 +46,10 @@
     };
     "betterttv" = buildFirefoxXpiAddon {
       pname = "betterttv";
-      version = "7.6.13";
+      version = "7.6.14";
       addonId = "firefox@betterttv.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4469511/betterttv-7.6.13.xpi";
-      sha256 = "a18bc1e328eccc24ca034f3d2b9e717aaa7f25383d2e45484f8d54b0d368c99a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4498532/betterttv-7.6.14.xpi";
+      sha256 = "9ae790d036f7f72decf388e0c40051b69e24aeb553d9b734858554908041face";
       meta = with lib;
       {
         homepage = "https://betterttv.com";
@@ -829,10 +829,10 @@
     };
     "youtube-addon" = buildFirefoxXpiAddon {
       pname = "youtube-addon";
-      version = "4.1250";
+      version = "4.1268";
       addonId = "{3c6bf0cc-3ae2-42fb-9993-0d33104fdcaf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4492115/youtube_addon-4.1250.xpi";
-      sha256 = "9d92e2b35a774a6d313583850d162abcfa1bf90d8d75d080c93872c6ce4a4813";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4500659/youtube_addon-4.1268.xpi";
+      sha256 = "058e6f8fc6abd672f3b77ecb9dff254cfedcf3673efe6d4cdd98e2c6ceba8335";
       meta = with lib;
       {
         homepage = "https://github.com/code4charity/YouTube-Extension/";
