@@ -346,7 +346,7 @@
       meta = with lib;
       {
         homepage = "https://privacybadger.org/";
-        description = "Automatically learns to block invisible trackers.";
+        description = "Automatically learns to block hidden trackers. Made by the leading digital rights nonprofit EFF to stop companies from spying on you.";
         license = licenses.gpl3;
         mozPermissions = [
           "<all_urls>"
