@@ -816,7 +816,7 @@
       meta = with lib;
       {
         homepage = "http://untrap.app";
-        description = "Hide YouTube recommendations, shorts, comments, suggestions, related videos, trending and other distractions.";
+        description = "Summarize YouTube videos with AI and Hide Distractions: shorts, ads, comments, related, suggestions, and more.";
         mozPermissions = [
           "storage"
           "activeTab"
