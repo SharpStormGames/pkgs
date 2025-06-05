@@ -2,10 +2,10 @@
   {
     "adguard-adblocker" = buildFirefoxXpiAddon {
       pname = "adguard-adblocker";
-      version = "5.1.80";
+      version = "5.1.94";
       addonId = "adguardadblocker@adguard.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4481137/adguard_adblocker-5.1.80.xpi";
-      sha256 = "5224d1b9ffadebdcce059526a52983133ffaab9672a01b8157b83ac8bdaba7ca";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4503360/adguard_adblocker-5.1.94.xpi";
+      sha256 = "99ef6d836a9309d08374f472227164f2e58ab14788f071e98eba3a704384d938";
       meta = with lib;
       {
         homepage = "https://adguard.com/";
