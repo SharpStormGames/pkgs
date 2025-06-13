@@ -105,10 +105,10 @@
     };
     "gumbo-twitch-companion" = buildFirefoxXpiAddon {
       pname = "gumbo-twitch-companion";
-      version = "1.19.2";
+      version = "1.20.0";
       addonId = "{59a39734-1e66-452e-a7b8-cc79f72062f0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4499935/gumbo_twitch_companion-1.19.2.xpi";
-      sha256 = "958310da06cbb6af622cb6c16e8016a2eb961b99ae8af4cda013b681913acdd9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4512844/gumbo_twitch_companion-1.20.0.xpi";
+      sha256 = "6845b9d2e88927be4a5e2f0116982aea64986a3dbd5ce34a372c33bab89ebd24";
       meta = with lib;
       {
         homepage = "https://github.com/seldszar/gumbo";
@@ -767,10 +767,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.31.2";
+      version = "1.31.6";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4491195/proton_pass-1.31.2.xpi";
-      sha256 = "1be8b5bdc3ad9d5b54b67c88e46d2e3437d913977a8e0100c10d695ac600bb93";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4507632/proton_pass-1.31.6.xpi";
+      sha256 = "48d88ab2f6021b018f3f1a513081bf4e5c67e131fb6957d6cac256cb2793435f";
       meta = with lib;
       {
         homepage = "https://proton.me";
