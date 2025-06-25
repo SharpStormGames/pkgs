@@ -105,10 +105,10 @@
     };
     "gumbo-twitch-companion" = buildFirefoxXpiAddon {
       pname = "gumbo-twitch-companion";
-      version = "1.20.0";
+      version = "1.20.1";
       addonId = "{59a39734-1e66-452e-a7b8-cc79f72062f0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4512844/gumbo_twitch_companion-1.20.0.xpi";
-      sha256 = "6845b9d2e88927be4a5e2f0116982aea64986a3dbd5ce34a372c33bab89ebd24";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4520116/gumbo_twitch_companion-1.20.1.xpi";
+      sha256 = "f711a8dbd1bae5ef17eb9a744b0521302966d4974b0109244ff4923f337ec416";
       meta = with lib;
       {
         homepage = "https://github.com/seldszar/gumbo";
@@ -829,10 +829,10 @@
     };
     "youtube-addon" = buildFirefoxXpiAddon {
       pname = "youtube-addon";
-      version = "4.1280";
+      version = "4.1320";
       addonId = "{3c6bf0cc-3ae2-42fb-9993-0d33104fdcaf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4507978/youtube_addon-4.1280.xpi";
-      sha256 = "0393b0db010fceafbf213f358751491dfafcdcd1654dcf429163a7cca6463723";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4515877/youtube_addon-4.1320.xpi";
+      sha256 = "76bbe4907d8e5c948ec182ed0bb431370caf9970cb6ff73a8b180cb01dd691d2";
       meta = with lib;
       {
         homepage = "https://github.com/code4charity/YouTube-Extension/";
