@@ -22,7 +22,6 @@ let
     pkgs.libuuid
     pkgs.mesa
     pkgs.sqlcipher
-    pkgs.gnome2.GConf
     pkgs.gdk-pixbuf
     pkgs.gtk3
     pkgs.libappindicator-gtk3
