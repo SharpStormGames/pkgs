@@ -767,10 +767,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.32.7";
+      version = "1.32.9";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4580681/proton_pass-1.32.7.xpi";
-      sha256 = "c875e7402cc098a62e9ccc7d2b888c69f1257393d72bcc1692b2b73bc781c9aa";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4586457/proton_pass-1.32.9.xpi";
+      sha256 = "5dbcd9df01edd67cda55c100f410e73c0581f5b96f3d90480686f7415465e6aa";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -829,10 +829,10 @@
     };
     "youtube-addon" = buildFirefoxXpiAddon {
       pname = "youtube-addon";
-      version = "4.1325";
+      version = "4.1350";
       addonId = "{3c6bf0cc-3ae2-42fb-9993-0d33104fdcaf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4565486/youtube_addon-4.1325.xpi";
-      sha256 = "2170928fdfa90e8239d67feeb53b7f24d098cc8d543ddf77822218d85c5cd5a5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4583940/youtube_addon-4.1350.xpi";
+      sha256 = "4ffb4231deecf25172bc7334bc2cb8ef3c58a57a501bf3d3fe4698aae9e003af";
       meta = with lib;
       {
         homepage = "https://github.com/code4charity/YouTube-Extension/";
