@@ -60,10 +60,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.110";
+      version = "4.9.112";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4535824/darkreader-4.9.110.xpi";
-      sha256 = "846245826470cc1a08597480493b2076fcf03322a1228682b8a85b866fae30dc";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4598977/darkreader-4.9.112.xpi";
+      sha256 = "dc1fc27b5e61662f1e1e8a60cbf8e11a77443888e40603f88db7c6b9e4ecb437";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -767,10 +767,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.32.9";
+      version = "1.32.10";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4586457/proton_pass-1.32.9.xpi";
-      sha256 = "5dbcd9df01edd67cda55c100f410e73c0581f5b96f3d90480686f7415465e6aa";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4598004/proton_pass-1.32.10.xpi";
+      sha256 = "1769547fccc2d75fe2f0ac8d7914f62f759073ee562de0f8c9efcd79c16ffbe6";
       meta = with lib;
       {
         homepage = "https://proton.me";
