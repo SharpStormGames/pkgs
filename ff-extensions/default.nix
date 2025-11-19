@@ -2,10 +2,10 @@
   {
     "adguard-adblocker" = buildFirefoxXpiAddon {
       pname = "adguard-adblocker";
-      version = "5.1.139";
+      version = "5.2.113.0";
       addonId = "adguardadblocker@adguard.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4562517/adguard_adblocker-5.1.139.xpi";
-      sha256 = "373fcc24c74c2c708554d263eff8274bad68d6e6ae66514493940bea88359992";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4619486/adguard_adblocker-5.2.113.0.xpi";
+      sha256 = "77cf51689cd7259d0d13e96d530b8dda1c3247dae3060b39f8d11902e67b4696";
       meta = with lib;
       {
         homepage = "https://adguard.com/";
@@ -60,10 +60,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.113";
+      version = "4.9.115";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4612789/darkreader-4.9.113.xpi";
-      sha256 = "e7e9dbbb9136364d5174b310e0377edc5bd010a33f2d1f1e90269b56442303c6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4619318/darkreader-4.9.115.xpi";
+      sha256 = "d3f800fc8c50d24578c25dad35a8e2e528f7a43eb45ee355ceb346d4fb7cc48f";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -105,10 +105,10 @@
     };
     "gumbo-twitch-companion" = buildFirefoxXpiAddon {
       pname = "gumbo-twitch-companion";
-      version = "1.20.4";
+      version = "1.20.5";
       addonId = "{59a39734-1e66-452e-a7b8-cc79f72062f0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4607314/gumbo_twitch_companion-1.20.4.xpi";
-      sha256 = "6cdd6e25e7e88b2b41930eea8bbd6a319651b55632a4c622a87465f609b10c96";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4623480/gumbo_twitch_companion-1.20.5.xpi";
+      sha256 = "ec1e3a247e059ea0371ec59513386c85bbb34219459b93b88f908a0209f8ace3";
       meta = with lib;
       {
         homepage = "https://github.com/seldszar/gumbo";
